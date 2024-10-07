@@ -1,6 +1,6 @@
 # IISER Mohali Poker Bot
 
-Welcome to the IISER Mohali Poker Bot repository! This project focuses on building an advanced poker-playing AI capable of autonomous decision-making with superhuman performance. This poker bot project is made by **Team Code of Cards** for the competition **Bet and Byte** at IISER Mohali's fest **Insomnia 2024**. Below, you'll find an overview of the project's structure, the research behind our approach, and how our implementation operates.
+Welcome to the IISER Mohali Poker Bot repository! This project focuses on building an advanced poker-playing AI capable of autonomous decision-making with superhuman performance. This poker bot project is made by **Team Code of Cards** for the competition **Bet and Byte** at IISER Mohali's fest **Insomnia 2024**. Below, you'll find an overview of the project's structure, the research behind our approach, and how our implementation operates. **This is the first open-source implementation of the ReBeL algorithm for a poker bot.**
 
 ## Repository Structure
 
@@ -11,6 +11,9 @@ This repository contains the following files:
 3. **modules.py** - A modularized Python file containing important functions from 4.ipynb that are necessary for running 5.ipynb. By storing key functions separately, we facilitate cleaner imports and reusable code across different notebooks.
 4. **policy_net.pth** - This file contains the pre-trained weights for the policy network used in our poker bot. The policy network is responsible for guiding the bot's decision-making process by determining the best moves based on the game state.
 5. **value_net.pth** - This file contains the pre-trained weights for the value network. The value network helps the bot assess the potential outcome of its decisions, optimizing its strategy over time.
+
+**This is the first open-source implementation of the ReBeL algorithm for a poker bot**, making this project a unique contribution to the open-source community.
+
 
 ## Research Background
 
@@ -26,7 +29,7 @@ We built our bot upon foundational concepts from game theory and state-of-the-ar
 
 ### ReBeL Model
 
-ReBeL (Recursive Belief-based Learning) is an advanced model developed by Facebook AI Research to tackle imperfect-information games like poker. It combines deep reinforcement learning with search strategies to approximate Nash equilibria, delivering superhuman performance. The model leverages **public belief states** (PBS) to track the common knowledge about the game's progress, allowing our bot to make more informed decisions.
+ReBeL (Recursive Belief-based Learning) is an advanced model developed by Facebook AI Research to tackle imperfect-information games like poker. It combines deep reinforcement learning with search strategies to approximate Nash equilibria, delivering superhuman performance. **This is the first open-source implementation of the ReBeL algorithm for a poker bot.**  The model leverages **public belief states** (PBS) to track the common knowledge about the game's progress, allowing our bot to make more informed decisions.
 
 Key features of the ReBeL model include:
 
